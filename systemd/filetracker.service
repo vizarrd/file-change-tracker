@@ -1,0 +1,11 @@
+[Unit]
+Description=File Integrity Monitoring Service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/filetracker
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target

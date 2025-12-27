@@ -1,0 +1,8 @@
+# Binary
+filetracker
+
+# Runtime data
+baseline.json
+
+# Logs
+*.log
